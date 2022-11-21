@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IAPManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mh-zG-4Cj">
+                                <rect key="frame" x="123.5" y="807" width="167" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="4c7-Tt-L93"/>
+                                    <constraint firstAttribute="width" constant="167" id="zAG-4G-Ks7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restore Purchase">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tappedRestorePurchaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BHV-9U-3SG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8r-5V-s9s">
+                                <rect key="frame" x="77" y="743" width="260" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="OIo-TT-5qM"/>
+                                    <constraint firstAttribute="height" constant="50" id="afV-X5-DqA"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Monthly $5.99">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedMonthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vIi-1P-fcw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4C-V1-P2D">
+                                <rect key="frame" x="77" y="679" width="260" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="sFa-XU-CfL"/>
+                                    <constraint firstAttribute="width" constant="260" id="yX7-OJ-qSd"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="7 days free then $29.99/year">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedYearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hWn-6Y-w9o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JK5-OR-wto">
+                                <rect key="frame" x="56.5" y="99" width="301" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" id="ESe-wH-JNG"/>
+                                    <constraint firstAttribute="height" constant="79" id="FPd-wM-Aab"/>
+                                </constraints>
+                                <string key="text">Get unlimited access 
+to all functions of the app</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" systemColor="tintColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JK5-OR-wto" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="34k-q5-pGU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0mh-zG-4Cj" secondAttribute="bottom" constant="24" id="3KY-Om-ezA"/>
+                            <constraint firstItem="b4C-V1-P2D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="60s-WR-Dhh"/>
+                            <constraint firstItem="JK5-OR-wto" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MDx-gt-hRe"/>
+                            <constraint firstItem="0mh-zG-4Cj" firstAttribute="top" secondItem="o8r-5V-s9s" secondAttribute="bottom" constant="14" id="V1k-54-Vmw"/>
+                            <constraint firstItem="0mh-zG-4Cj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xzj-ne-Bmn"/>
+                            <constraint firstItem="o8r-5V-s9s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ayL-Sm-Ru4"/>
+                            <constraint firstItem="o8r-5V-s9s" firstAttribute="top" secondItem="b4C-V1-P2D" secondAttribute="bottom" constant="14" id="jDr-Pa-yKB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="monthButton" destination="o8r-5V-s9s" id="fTZ-YW-6iP"/>
+                        <outlet property="restoreButton" destination="0mh-zG-4Cj" id="kfb-5l-bYh"/>
+                        <outlet property="yearButton" destination="b4C-V1-P2D" id="ykV-nE-l9a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

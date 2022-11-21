@@ -1,0 +1,125 @@
+{
+  "identifier" : "C91D9240",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "DE7A65F5",
+      "localizations" : [
+        {
+          "description" : "Get more coins",
+          "displayName" : "1 Coin",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "com.temporary.id",
+      "referenceName" : "1 Coin",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20912722",
+      "localizations" : [
+
+      ],
+      "name" : "Premium Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "1601831438",
+          "introductoryOffer" : {
+            "internalID" : "2C15868D",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Access to all premium features",
+              "displayName" : "Month Premium Access",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.testapp.month",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Month Premium Access",
+          "subscriptionGroupID" : "20912722",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "99.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "1607473107",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "year test",
+              "displayName" : "Year",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.testapp.year2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Year2",
+          "subscriptionGroupID" : "20912722",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1601825918",
+          "introductoryOffer" : {
+            "internalID" : "8E365952",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Access to all premium features",
+              "displayName" : "Yearly Premium Access",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.testapp.year",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Premium Access",
+          "subscriptionGroupID" : "20912722",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
